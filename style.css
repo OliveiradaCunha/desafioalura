@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #33475B;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header {
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.container-elementos-header {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo-principal {
+    font-size: 24px;
+    color: #0000EE;
+    font-weight: 400;
+}
+.label-pesquisa {
+    background-color: #DB1E8C;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+}
+.input-pesquisa {
+    background-color: transparent;
+    padding: 4px;
+    border: none;
+}
+::placeholder {
+    color: #FF97D3;
+}
+
+.container-trilhas {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.trilha {
+    width: calc((100% - 120px) / 3);
+    background-color: #FFFFFF;
+    padding: 32px 32px 96px;
+    border-radius: 4px;
+    position: relative;
+    line-height: 20.8px;
+}
+.titulo-trilha {
+    color: #364372;
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.paragrafo-trilha  {
+    margin-bottom: 16px;
+}
+.link-ementa {
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    padding: 16px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 32px;
+    height: 54px;
+    width: 160px;
+    color: #264FEC;
+    transition: 0.3s all;
+    text-align: center;
+}
+.link-ementa:hover {
+    background-color: #264FEC;
+    color: #FFFFFF;
+    border-color: #0000d6;
+}
+
+footer {
+    background-color: #FFFFFF;
+    height: 110px;
+    display: flex;
+}
+
+.container-elementos-footer {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-logos {
+    display: flex;
+    gap: 24px;
+}
+
+.container-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-links a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.container-direita {
+    display: flex;
+    gap: 54px;
+    align-items: center;
+}
+
+.container-icones {
+    display: flex;
+    gap: 16px;
+}
+
+.container-midias {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
